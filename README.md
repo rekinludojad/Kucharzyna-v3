@@ -39,3 +39,5 @@ Dopracowany iPhone UI, ekran receptury, tryb GOTUJĘ, większe akcje dotykowe i 
 - przygotowane pole ceny jednostkowej składnika w edytorze;
 - bezpieczniejsze scalanie backupów na podstawie `updatedAt`;
 - drobne poprawki iOS/touch UX.
+
+- **v1.2.1 hotfix:** `db.js` jest jawnie ładowany przed `app.js`, dzięki czemu IndexedDB i cała interakcja aplikacji uruchamiają się poprawnie na GitHub Pages.
